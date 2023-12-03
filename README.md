@@ -49,11 +49,19 @@ php artisan key:generate
 ```shell
 php artisan migrate --seed
 ```
-7. Start the development server:
+7. Install NPM dependencies:
+```shell
+npm inatall
+```
+8. Run npm development :
+```shell
+npm run dev
+```
+9. Start the development server:
 ```shell
 php artisan serve
 ```
-8. Visit `http://localhost:8000` in your browser to access Farmington.
+10. Visit `http://localhost:8000` in your browser to access Farmington.
 
 ## License 📄
 Farmington is open-source software licensed under the [MIT License](LICENSE).
